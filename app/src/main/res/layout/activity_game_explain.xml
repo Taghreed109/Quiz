@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameExplain">
+    <!-- View to Explain the game for user  -->
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bulb" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Explanation"
+        android:layout_marginStart="18dp"
+        android:textSize="22sp"
+        android:layout_below="@id/img"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:layout_below="@id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Quiz is a game to test your knowledge, It contanis 5 Questions, there is two type of Questions, Question with multipale choices and you should choose one answer, the other type is Questions with multiple
+answers (2 answers) you should choose 2 right answers from choices, there is timer of 30 seconds you should answer before timer ends."/>
+
+</RelativeLayout>
